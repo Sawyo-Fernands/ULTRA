@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color:#101522 ; 
+   /* #4b59f7 cor secundaria*/
+   font-family: 'Open Sans', sans-serif;
+   
+}
+
+.Started{
+    margin-top: 3rem;
+}
+.HiddeMenu{
+text-align: center;
+width: 240px;
+margin-right: auto;
+position: absolute;
+right: 12px;
+transition: 0.3s;
+    
+}
+.HiddeMenu li{
+    padding: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+        list-style: none;
+}
+.true{
+    opacity: 0;
+    visibility: hidden;
+    height: 100%;
+}
+
+.false{
+    opacity: 1;
+    visibility: visible;
+    width:100%;
+    
+}
